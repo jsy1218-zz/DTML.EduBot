@@ -36,7 +36,7 @@ namespace DTML.EduBot.Common
         private readonly static IReadOnlyList<string> GenericResponses = new List<string>
             {
                 "Great!", "Good!", "Awesome!!",
-                "Very good","Perfect!", "Interesting!",
+                "Very good","Perfect!",
                 "Amazing", "Excellent!", "Super"
             };
 

@@ -10,7 +10,7 @@
     using Newtonsoft.Json;
 
     [Serializable]
-    public class QnaService
+    public class QnaService : IQnaService
     {
         private readonly IQnaModel model;
         private readonly Uri serviceUri;

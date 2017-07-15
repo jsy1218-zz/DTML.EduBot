@@ -117,7 +117,7 @@
     <Compile Include="Constants\BotEntities.cs" />
     <Compile Include="Constants\Shared.cs" />
     <Compile Include="Controllers\MessagesController.cs" />
-    <Compile Include="Dialogs\GreetingDialog.cs" />
+    <Compile Include="Dialogs\ConversationBasicsDialog.cs" />
     <Compile Include="Dialogs\IAmDialog.cs" />
     <Compile Include="Dialogs\OpenEndedDialog.cs" />
     <Compile Include="Dialogs\QnaLuisDialog.cs" />
@@ -133,6 +133,7 @@
     <Compile Include="Qna\IQnaModel.cs" />
     <Compile Include="Qna\IQnaRequest.cs" />
     <Compile Include="Qna\IQnaResult.cs" />
+    <Compile Include="Qna\IQnaService.cs" />
     <Compile Include="Qna\QnaModelAttribute.cs" />
     <Compile Include="Qna\QnaRequest.cs" />
     <Compile Include="Qna\QnaResult.cs" />
